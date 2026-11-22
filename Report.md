@@ -2,6 +2,8 @@
 - Divyanshi - 2023209
 - Saksham Arora - 2023466
 
+Code: https://github.com/drdben/2023209-2023466-DSA1
+
 ## Setup 
 Create a virtual environment using
 `python3 -m venv .venv`. Activate it and then install dependecies using `pip install -r requirements.txt`
