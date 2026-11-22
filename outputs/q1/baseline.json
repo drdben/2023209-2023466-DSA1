@@ -7,10 +7,10 @@
   "n_init": 5,
   "baseline_cost": 53885.758101901425,
   "sklearn_inertia": 53858.359375,
-  "baseline_seconds": 9.303739270999813,
+  "baseline_seconds": 3.018532249989221,
   "numpy_version": "2.5.5",
   "sklearn_version": "1.9.1",
-  "baseline_partition_cost": 53882.886212436446,
+  "baseline_partition_cost": 53882.88621243661,
   "threads": 1,
   "synthetic_smoke_test": false
 }

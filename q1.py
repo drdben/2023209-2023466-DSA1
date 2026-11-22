@@ -102,6 +102,9 @@ def run_q1(D, output, seed=SEED):
     (output / "baseline.json").write_text(json.dumps(metadata, indent=2) + "\n")
     print(f"Baseline: cost={baseline_cost:.6f}, fit={baseline_seconds:.3f}s", flush=True)
 
+    # Build E in float64: float32 rounding differs across machines and can
+    # send k-means on E to a different local optimum.
+    D64 = D.astype(np.float64)
     trials = []
     for m in MS:
         for trial in range(1, 6):
@@ -109,7 +112,7 @@ def run_q1(D, output, seed=SEED):
             km_seed = int(rng.integers(0, 2**31 - 1))
             model = KMeans(n_clusters=15, n_init=5, random_state=km_seed)
             start = perf_counter()
-            E = D @ A.T
+            E = D64 @ A.T
             model.fit(E)
             seconds = perf_counter() - start
             averaged = cluster_means(D, model.labels_)

@@ -1,0 +1,33 @@
+Baseline: cost=53885.758102, fit=3.019s
+m=5, trial=1: averaged ratio=1.187009
+m=5, trial=2: averaged ratio=1.263526
+m=5, trial=3: averaged ratio=1.249731
+m=5, trial=4: averaged ratio=1.316944
+m=5, trial=5: averaged ratio=1.280659
+m=10, trial=1: averaged ratio=1.015173
+m=10, trial=2: averaged ratio=1.009577
+m=10, trial=3: averaged ratio=0.997085
+m=10, trial=4: averaged ratio=1.155130
+m=10, trial=5: averaged ratio=1.049181
+m=15, trial=1: averaged ratio=1.036769
+m=15, trial=2: averaged ratio=1.002392
+m=15, trial=3: averaged ratio=1.091952
+m=15, trial=4: averaged ratio=1.009913
+m=15, trial=5: averaged ratio=1.026414
+m=20, trial=1: averaged ratio=1.033114
+m=20, trial=2: averaged ratio=1.113409
+m=20, trial=3: averaged ratio=0.980081
+m=20, trial=4: averaged ratio=1.032329
+m=20, trial=5: averaged ratio=1.072642
+m=25, trial=1: averaged ratio=1.023090
+m=25, trial=2: averaged ratio=1.003741
+m=25, trial=3: averaged ratio=1.048789
+m=25, trial=4: averaged ratio=1.028295
+m=25, trial=5: averaged ratio=1.029694
+       mean_cost  mean_ratio  min_ratio  max_ratio  inverse_mean_ratio  inverse_min_ratio  inverse_max_ratio  mean_seconds
+m                                                                                                                         
+5   67873.094633    1.259574   1.187009   1.316944           79.677179          78.891183          80.356058      2.237665
+10  56322.972201    1.045229   0.997085   1.155130           74.731829          73.432574          76.161699      2.237289
+15  55690.285174    1.033488   1.002392   1.091952           73.299143          71.803506          76.461409      2.150535
+20  56381.470394    1.046315   0.980081   1.113409           67.200906          64.290755          70.358931      2.358848
+25  55325.676845    1.026722   1.003741   1.048789           68.166608          66.073235          69.856478      2.422781
